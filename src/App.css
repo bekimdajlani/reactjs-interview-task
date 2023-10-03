@@ -1,0 +1,26 @@
+.categories-section {
+  margin-left: 14px;
+}
+
+.page-orientation{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.main-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  width: 100%
+}
+.add-note{
+  width: 100em;
+  margin-left: 14px;
+}
+.notes{
+  width: 25em;
+  margin-left: 14px;
+  margin-top: 5px;
+}

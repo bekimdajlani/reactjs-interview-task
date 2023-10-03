@@ -1,0 +1,21 @@
+.note{
+    width: 50em;
+    box-sizing: border-box;
+    margin: 0;
+}
+.noteTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50em;
+    line-height: 1.2em;
+}
+.notecontainer{
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.categoryButton {
+    width: 370px;
+    height: 42px;
+    margin-top: 10px;
+    left: 10px;
+    background: rgba(18, 100, 163, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categoryButton > span:first-child{
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.categoryButton> span:nth-child(3){
+    padding-top: 7px;
+    padding-left: 235px;
+}
+.rotate90 {
+    transform: rotate(90deg);
+    transition: transform 2s ease;
+}
+
+/* category clicked */
+
+.clickedButton {
+    width: 370px;
+    height: 42px;
+    margin-top: 10px;
+    left: 10px;
+    background: rgb(236, 236, 236);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clickedButton > span:first-child{
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.clickedButton > span:nth-child(2){
+    color: rgb(0, 0, 0);
+}
+.clickedButton> span:nth-child(3){
+    padding-top: 7px;
+    padding-left: 235px;
+    color: black;
+}
